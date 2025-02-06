@@ -1,4 +1,4 @@
-export default interface JobProps {
+export interface JobProps {
   id: number;
   company: string;
   logo: string;
@@ -11,3 +11,4 @@ export default interface JobProps {
   languages: string[];
   tools: string[];
 }
+

@@ -1,10 +1,14 @@
 import "./App.css";
 import JobList from "./components/Joblist";
-
-function App() {
+import SearchBar from "./components/Searchbar";
+function App()
+{
+  
   return (
     <>
+       
       <JobList />
+   
     </>
   );
 }
